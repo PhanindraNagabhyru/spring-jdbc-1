@@ -53,7 +53,12 @@
             <artifactId>slf4j-nop</artifactId> 
             <version>1.7.5</version>
         </dependency>
-        <distributionManagement>
+        
+        
+        
+        
+    </dependencies>
+    <distributionManagement>
     <repository>
       <id> deployment </id>
       <name> internal repository  </name>
@@ -65,10 +70,6 @@
             <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
   </distributionManagement>
-        
-        
-        
-    </dependencies>
     
     
 </project>
